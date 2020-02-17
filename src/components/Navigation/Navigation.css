@@ -1,0 +1,11 @@
+.navigation {
+    /* background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%); */
+    display: flex; 
+    justify-content: space-between; 
+    border-bottom: 1px outset black;
+}
+
+.paras {
+    display: flex;
+    justify-content: flex-end;
+}
