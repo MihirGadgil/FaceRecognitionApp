@@ -8,10 +8,11 @@ import FaceRecognition from './components/FaceRecognition/FaceRecognition';
 import particleOpts from './particlesjs-config.json';
 import Signin from './components/Signin/Signin';
 import Register from './components/Register/Register';
+import Keys from './environments/environment';
 import './App.css';
 
 const app = new Clarifai.App({
-  apiKey: '205c71f2cbfe4b3f8ee20866a5dcc10a'
+  apiKey: Keys.apiKey
  });
 
 class App extends Component {
